@@ -1,0 +1,32 @@
+{
+  "name": "dzerok2020/mypackage",
+  "description": "mypackage",
+  "keywords": [
+    "mypackage"
+  ],
+  "authors": [
+    {
+      "name": "DzeroK",
+      "email": "dzerok2020@gmail.com"
+    }
+  ],
+  "license": "MIT",
+  "require": {},
+  "require-dev": {},
+  "autoload": {
+    "classmap": [
+      "database"
+    ],
+    "psr-4": {
+      "Dzerok2020\\Mypackage\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "classmap": []
+  },
+  "scripts": {},
+  "minimum-stability": "dev",
+  "config": {
+    "preferred-install": "dist"
+  }
+}
